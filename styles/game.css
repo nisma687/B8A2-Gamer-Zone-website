@@ -108,6 +108,7 @@ font-weight: 500;
 text-transform: lowercase;
 }
 
+
 .gamername
 {
     text-align: center;
@@ -413,6 +414,73 @@ margin-left:20px;
 
 
 }
+
+
+
+/* footer */
+
+
+footer
+{
+    background: #0B0223;
+    width: 1920px;
+height: 636px;
+/* flex-shrink: 0; */
+}
+.imagecontainerfooter h1{
+    color: #FFF;
+    font-size: 30px;
+}
+
+.conatinerofours
+{
+    color: #FFF;
+    display: flex;
+    gap:20px;
+    padding: 10px 500px;
+    /* margin-top: 0px; */
+}
+.icons
+{
+    padding: 10px 0px;
+    margin-right: 600px;
+    color: #FFF;
+}
+.termsandcondition
+{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+
+font-size: 16px;
+
+padding: 10px 500px;
+font-weight: 500;
+
+margin-right: 600px;
+}
+
+.imagecontainerfooter
+{
+    padding: 120px 550px;
+    /* margin-bottom: 0px; */
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr ; */
+ 
+    gap:10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
