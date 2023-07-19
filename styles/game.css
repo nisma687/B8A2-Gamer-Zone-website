@@ -108,6 +108,15 @@ font-weight: 500;
 text-transform: lowercase;
 }
 
+.gamername
+{
+    text-align: center;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+
+}
 
 
 nav {
@@ -363,6 +372,50 @@ margin-left:20px;
     display: flex;
     justify-content: space-between;
 }
+/* card part */
+
+
+.cardcontainer
+{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    /* padding: 0 100px; */
+    /* gap: 20px 0; */
+    gap:10px;
+    padding:0 100px;
+    margin-left: 20px;
+   
+}
+.card:hover
+{
+    color: #F948B2;
+    border:#F948B2 ;
+    cursor: pointer;
+  
+}
+.card
+{
+    /* display: flex; */
+    /* text-align: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border-radius: 50px;
+    background: #FFF;
+   
+
+
+
+
+}
+
+
+
 
 /* responsive mobile */
 
